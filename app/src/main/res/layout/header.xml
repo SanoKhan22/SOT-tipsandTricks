@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:orientation="vertical"
+    android:background="@drawable/intro_img"
+    android:padding="20dp"
+    style="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="16dp"
+        android:scaleType="centerCrop"
+       />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-33dp"
+        android:fontFamily="@font/eater"
+        android:textStyle="bold"
+        android:background="#B2252522"
+        android:padding="10dp"
+        android:text="Sea Of Theives"
+        android:textColor="#F1EDED"
+        android:textSize="16dp" />
+
+
+
+
+</LinearLayout>

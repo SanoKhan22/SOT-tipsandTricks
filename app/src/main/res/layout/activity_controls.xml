@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controls">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#65635E"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/xboz_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-112dp"
+            android:background="#9A191616"
+            android:fontFamily="@font/chelsea_market"
+            android:padding="16dp"
+            android:text="XBOX CONTROLS"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+
+        //xbox controls
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:background="#C8130808"
+            android:fontFamily="@font/capriola"
+            android:padding="16dp"
+            android:text="
+Controller\n\n
+Jump: A\n
+Interact: X\n
+Secondary Interact: Y\n
+Stop Interacting/Stow Item/Drop Chest: B\n
+Move: Left Thumbstick\n
+Aim/Look: Right Thumbstick\n
+Sprint: Click Down on Left Thumbstick\n
+Pirate Chat: Up (D-Pad)\n
+Pirate Wheel of Emotions: Down (D-pad)\n
+Cycle Weapon: Y\n
+Map Radial: RB\n
+Item Radial: LB\n
+Primary Use: RT\n
+Secondary Use: LT\n
+Options: View button\n
+Reputation/Voyages: Menu button"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        //pc
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/pc_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-112dp"
+            android:background="#9A191616"
+            android:fontFamily="@font/chelsea_market"
+            android:padding="16dp"
+            android:text="PC CONTROLS"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="82dp"
+            android:background="#9A191616"
+            android:fontFamily="@font/capriola"
+            android:padding="16dp"
+            android:text="Keyboard and Mouse\n\n
+Jump: Spacebar\n
+Interact / Disengage: F\n
+Secondary Interact: R\n
+Move: W, A, S, D\n
+Aim/Look: Mouse\n
+Sprint: Left Shift\n
+Walk: Left Ctrl\n
+Pirate Chat: G\n
+Pirate Wheel of Emotions: Z\n
+Stow Items: X\n
+Settings: Esc\n
+Reputation/Voyages: Tab\n
+Primary Use: Left Mouse Button\n
+Secondary Use: Right Mouse Button\n
+Cycle Weapon: Mouse Wheel Up/Down\n
+Draw Primary Weapon: 1\n
+Draw Secondary Weapon: 2\n
+Fruit: 3\n
+Cannonball: 4\n
+Wood Plank: 5\n
+Shovel: 6\n
+Compass: 7\n
+Spyglass: 8\n
+Tankard: 9\n
+Pocket Watch: 0\n
+Lantern: L\n
+Bucket: B\n
+Instrument: I\n
+Text Chat: T"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD6C8"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pp"
+        android:orientation="vertical">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2A1650"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+
+        //buttons
+
+        <Button
+            android:id="@+id/introduction_btn"
+
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/button_color"
+            android:fontFamily="@font/frijole"
+            android:shadowColor="#3D15AB"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="SOT ?"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+
+
+
+        //button 2  tips
+        <Button
+            android:id="@+id/tips_btn"
+
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_color"
+            android:shadowColor="#3D15AB"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:fontFamily="@font/frijole"
+            android:shadowRadius="5"
+            android:text="TIPS"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            />
+
+        //button 3 tricks
+
+
+        // forth btn Sop_gameplay
+
+        <Button
+            android:id="@+id/tricks_btn"
+
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_color"
+            android:fontFamily="@font/frijole"
+            android:shadowColor="#3D15AB"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="TRICKS"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/gameplay_btn"
+
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/frijole"
+            android:background="@drawable/button_color"
+            android:shadowColor="#3D15AB"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Game Play"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            />
+
+
+        fifth
+
+        <Button
+            android:id="@+id/controls_btn"
+
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/button_color"
+            android:fontFamily="@font/frijole"
+            android:shadowColor="#3D15AB"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="CONTROLS"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <com.google.android.material.navigation.NavigationView
+    android:id="@+id/navigation_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+     app:headerLayout="@layout/header"
+    app:menu="@menu/drawer_menu">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

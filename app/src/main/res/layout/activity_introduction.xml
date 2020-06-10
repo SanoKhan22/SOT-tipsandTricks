@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#231C1C"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/intro_img"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:gravity="center"
+            android:text="Introduction"
+            android:textColor="#fff"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A7605959"
+            android:fontFamily="@font/capriola"
+            android:padding="18dp"
+            android:text="Sea of Thieves is a 2018 action-adventure game developed by Rare and published by Xbox Game Studios. The player assumes the role of a pirate who completes voyages from different trading companies in order to become the ultimate pirate legend. Sea of Thieves is a first-person multiplayer game in which players cooperate with each other to explore an open world via a pirate ship. The game is described as a shared world adventure game, which means groups of players will encounter each other regularly during their adventures."
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/atomic_age"
+            android:padding="16dp"
+            android:text="Publisher(s)	Xbox Game Studios\n\n
+Release	20 March 2018\n\n
+Platform(s)
+Microsoft Windows
+Xbox One
+Xbox Series X"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

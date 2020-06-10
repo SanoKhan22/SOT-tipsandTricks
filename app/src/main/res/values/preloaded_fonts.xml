@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/atomic_age</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/capriola</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/eater</item>
+        <item>@font/frijole</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/new_rocker</item>
+    </array>
+</resources>

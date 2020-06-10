@@ -1,0 +1,25 @@
+<resources>
+
+
+
+
+    <!-- main activity-->
+    <style name="splashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4C139F</item>
+        <item name="colorPrimaryDark">#1E0B49</item>
+        <item name="android:navigationBarColor">#3F169A</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- introductin and tricks theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26202E</item>
+        <item name="colorPrimaryDark">#06040B</item>
+        <item name="android:navigationBarColor">#1E1923</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+
+</resources>

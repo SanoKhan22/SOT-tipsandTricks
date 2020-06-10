@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ED2B2929"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tricks_1"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#201E16"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Mermaid Warp"
+        android:textColor="#1FE1D6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353431"
+        android:fontFamily="@font/montserrat_alternates"
+        android:padding="16dp"
+        android:text="Crew left without you? Lost without any idea where to go? Don’t worry, there’s a way to get back to your ship. Simply use Mermaid Warp and you’ll go directly to your ship. Look for some smoke in the water nearby and you’ll find a mermaid. Interacting with it will teleport you back to your ship."
+        android:textColor="#E3EDED"
+        android:textSize="20dp" />
+
+
+    //next tricks
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tricks_2"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#201E16"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Skull Clouds"
+        android:textColor="#1FE1D6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353431"
+        android:fontFamily="@font/montserrat_alternates"
+        android:padding="16dp"
+        android:text="You might have seen those skull clouds in the sky and thought doomsday is upon us all. But no, those are actually Skull Forts – islands with a high concentration of skeletons. Defeating the skeletons and their many variants, which requires both melee combat, kiting and ample artillery, will yield tons of loot like crates of rare tea and a Stronghold chest. Be careful though – other players can see them as well and could easily kill you for the loot."
+        android:textColor="#E3EDED"
+        android:textSize="20dp" />
+
+
+
+    //next tricks
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tricks_3"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#201E16"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Sailing Into The Wind"
+        android:textColor="#1FE1D6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353431"
+        android:fontFamily="@font/montserrat_alternates"
+        android:padding="16dp"
+        android:text="Sea of Thieves only offers two ship varieties – a Sloop and Galleon, with the former holding 1 or 2 people at max. At first, you may think the bigger option is better but having a smaller ship does have its advantages. When a Galleon is after your Sloop, make an attempt to sail into the wind. Thanks to the laws of physics, your ship will move faster thus enabling you to escape easier."
+        android:textColor="#E3EDED"
+        android:textSize="20dp" />
+
+
+
+    //next tricks
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tricks_4"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#201E16"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Starting A New Voyage"
+        android:textColor="#1FE1D6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353431"
+        android:fontFamily="@font/montserrat_alternates"
+        android:padding="16dp"
+        android:text="Starting a new voyage seems complicated but it’s more…nuanced than anything else. You first need to buy a voyage – selecting from the initial choices won’t cost you anything so go for those. Place this voyage on your ship’s table. If you’re with other players, get them to do the same. A voting process will begin and once everyone decides on a mission, you receive a map and are on your way."
+        android:textColor="#E3EDED"
+        android:textSize="20dp" />
+
+
+    //next tricks
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tricks_5"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#201E16"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Aiming Cannons"
+        android:textColor="#1FE1D6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353431"
+        android:fontFamily="@font/montserrat_alternates"
+        android:padding="16dp"
+        android:text="Starting a new voyage seems complicated but it’s more…nuanced than anything else. You first need to buy a voyage – selecting from the initial choices won’t cost you anything so go for those. Place this voyage on your ship’s table. If you’re with other players, get them to do the same. A voting process will begin and once everyone decides on a mission, you receive a map and are on your way."
+        android:textColor="#E3EDED"
+        android:textSize="20dp" />
+
+
+    //last
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/tricks_6"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#201E16"
+        android:fontFamily="@font/new_rocker"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="North Star"
+        android:textColor="#1FE1D6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#353431"
+        android:fontFamily="@font/montserrat_alternates"
+        android:padding="16dp"
+        android:text="If you’re confused about port and starboard or just sea navigation in general, look for the North Star. This will be your guiding light should you ever get lost. Alternatively, it makes for a decent point of reference if you don’t want to pull out your compass. Just remember to give your mates some more information eventually."
+        android:textColor="#E3EDED"
+        android:textSize="20dp" />
+</LinearLayout>
+
+</ScrollView>
+
