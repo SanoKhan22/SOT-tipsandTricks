@@ -12,17 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@drawable/sotimg"
+        android:src="@drawable/red1"
         android:id="@+id/SplashImage"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/eater"
-        android:text="Sea of \n Theives"
-        android:textColor="#Fff"
         android:layout_gravity="center"
-        android:layout_marginTop="-200dp"
-        android:textSize="33sp" />
+        android:layout_marginTop="-290dp"
+        android:fontFamily="@font/bowlby_one"
+        android:text="R D R"
+        android:textColor="#F5FFFFFF"
+        android:textSize="55sp" />
+
+
 
 </LinearLayout>

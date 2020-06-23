@@ -13,6 +13,21 @@
         android:gravity="center"
         android:orientation="vertical">
 
+
+        <!--//admob banner-->
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/admob_banner">
+
+        </com.google.android.gms.ads.AdView>
+
+
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
@@ -24,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="28dp"
-            android:fontFamily="@font/caesar_dressing"
+            android:fontFamily="@font/bangers"
             android:gravity="center"
             android:text="Introduction"
             android:textColor="#fff"
@@ -35,9 +50,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#A7605959"
-            android:fontFamily="@font/capriola"
+            android:fontFamily="@font/convergence"
             android:padding="18dp"
-            android:text="Sea of Thieves is a 2018 action-adventure game developed by Rare and published by Xbox Game Studios. The player assumes the role of a pirate who completes voyages from different trading companies in order to become the ultimate pirate legend. Sea of Thieves is a first-person multiplayer game in which players cooperate with each other to explore an open world via a pirate ship. The game is described as a shared world adventure game, which means groups of players will encounter each other regularly during their adventures."
+            android:text="This is a Pure and For Educational purpose guide for RDR.R D Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and is a prequel to the 2010 game Red Dead R.... The story is set in 1899 in a fictionalized representation of the Western, Midwestern, and Southern United States and follows outlaw Arthur Morgan, a member of the Van der Linde gang. Arthur must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries. The story also follows fellow gang member John Marston, the protagonist of RDR."
             android:textColor="#fff"
             android:textSize="12sp" />
 
@@ -47,12 +62,13 @@
 
             android:fontFamily="@font/atomic_age"
             android:padding="16dp"
-            android:text="Publisher(s)	Xbox Game Studios\n\n
-Release	20 March 2018\n\n
-Platform(s)
+            android:text="Publisher(s)\n\n
+PlayStation 4, Xbox One
+October 26, 2018\n
 Microsoft Windows
-Xbox One
-Xbox Series X"
+November 5, 2019\n
+Stadia
+November 19, 2019"
             android:textColor="#fff"
             android:textSize="12sp" />
 

@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".controls">
+
+
+
+
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,10 +28,22 @@
         android:orientation="vertical">
 
 
+        <!--//admob banner-->
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="@string/admob_banner">
+
+        </com.google.android.gms.ads.AdView>
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/xboz_img"/>
+            android:background="@drawable/ps4"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -25,11 +52,11 @@
             android:background="#9A191616"
             android:fontFamily="@font/chelsea_market"
             android:padding="16dp"
-            android:text="XBOX CONTROLS"
+            android:text="PS4 CONTROLS"
             android:textColor="#fff"
             android:textSize="22dp" />
 
-        //xbox controls
+        //ps4 controls
 
         <TextView
             android:layout_width="match_parent"
@@ -40,22 +67,37 @@
             android:padding="16dp"
             android:text="
 Controller\n\n
-Jump: A\n
-Interact: X\n
-Secondary Interact: Y\n
-Stop Interacting/Stow Item/Drop Chest: B\n
-Move: Left Thumbstick\n
-Aim/Look: Right Thumbstick\n
-Sprint: Click Down on Left Thumbstick\n
-Pirate Chat: Up (D-Pad)\n
-Pirate Wheel of Emotions: Down (D-pad)\n
-Cycle Weapon: Y\n
-Map Radial: RB\n
-Item Radial: LB\n
-Primary Use: RT\n
-Secondary Use: LT\n
-Options: View button\n
-Reputation/Voyages: Menu button"
+Left analog stick	Move\n
+Left analog stick (in cover)	Peek\n
+Left analog stick (horse)	Steer\n
+Left analog + X	Hold to run, tap to sprint\n
+Right analog stick	Look / aim\n
+L3	Crouch\n
+L3 (horse)	Calm horse
+R3 (weapon wheel)	Maintain wepaon; hold to look behind
+Square (while aiming)	Tap to dive; tap to block melee attacks\n
+SquCircle	Reload weapon/melee combat\n
+Circle (horse)	Kick a target to either side; stop leading horse\n
+L1 (horse)	hold to view weapons stored on mount\n
+R1	Take/exit cover; hold to study animal or tap to show/hide animal information\n
+R1 (horse)	Tap to slow down; double tap to move down formation\n
+L2	Hold to aim equipped weapon; hold to lock on to nearby characters or animals\n
+L2 (hold) + R2	Aim and shoot\n
+L2 (hold) + R3	Activate Dead Eye while aiming\n
+L2 (hold) + Square	Combat dive\n
+L2 (horse)	Hold to lock on to nearby targets\n
+R2	Tap to draw weapon, fire weapon, or cock weapon between shots (if applicable); rapid tap to shoot from the hip\n
+R2 (horse)	Tap to draw weapon, fire weapon, or cock weapon between shots (if applicable)\n
+D-Pad Right	Hold to open satchel or horse cargo\n
+D-Pad Right (horse)	Hold to check horse cargo; feed horse (while locked onto horse)\n
+D-Pad Left	Tap to display log; hold to check journal\n
+D-Pad Left + L2	Toggle shoulder view (while aiming)\n
+D-Pad Left (horse)	Brush horse (while locked onto horse)\n
+D-Pad Left + L2 (horse)	Toggle shoulder view (while aiming)\n
+D-Pad Up	Whistle/call horse\n
+D-Pad Up	Raise your gun to the sky to fire a warning shot (while aiming)
+Trackpad	Press to toggle camera view; press and hold to trigger cinematic view\n
+Options	Display pause menu; hold to open the map\n"
             android:textColor="#fff"
             android:textSize="15dp" />
 
@@ -63,7 +105,7 @@ Reputation/Voyages: Menu button"
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/pc_img"/>
+            android:background="@drawable/pc"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -83,38 +125,67 @@ Reputation/Voyages: Menu button"
             android:background="#9A191616"
             android:fontFamily="@font/capriola"
             android:padding="16dp"
-            android:text="Keyboard and Mouse\n\n
-Jump: Spacebar\n
-Interact / Disengage: F\n
-Secondary Interact: R\n
-Move: W, A, S, D\n
-Aim/Look: Mouse\n
-Sprint: Left Shift\n
-Walk: Left Ctrl\n
-Pirate Chat: G\n
-Pirate Wheel of Emotions: Z\n
-Stow Items: X\n
-Settings: Esc\n
-Reputation/Voyages: Tab\n
-Primary Use: Left Mouse Button\n
-Secondary Use: Right Mouse Button\n
-Cycle Weapon: Mouse Wheel Up/Down\n
-Draw Primary Weapon: 1\n
-Draw Secondary Weapon: 2\n
-Fruit: 3\n
-Cannonball: 4\n
-Wood Plank: 5\n
-Shovel: 6\n
-Compass: 7\n
-Spyglass: 8\n
-Tankard: 9\n
-Pocket Watch: 0\n
-Lantern: L\n
-Bucket: B\n
-Instrument: I\n
-Text Chat: T"
+            android:text="Common\n\n
+Pause Menu = P\n
+Interact with Feed Message = F1\n
+Open Map = M\n
+Interact/Mount Horse/Enter Vehicle = E\n\n
+In-Game Camera\n\n
+Look Behind = C\n
+Cycle Camera = V\n
+Cinematic Camera = V\n
+Cinematic Shot Change = C\n
+Focus Camera = V\n\n
+On Foot\n\n
+Move Forward = W\n
+Move Backward = S\n
+Move Left = A\n
+Move Right = D\n
+Run = L/Shift\n
+Context Action = Spacebar\n
+Take/Carry = R\n
+Enter/Exit Cover = Q\n
+Jump = Spacebar\n\n
+On Horse\n\n
+Move Forward = W\n
+Move Backward = S\n
+Move Left = A\n
+Move Right = D\n
+Whistle for Horse = H\n
+Horse Jump = Spacebar\n
+Horse Melee Mode = F\n
+Sprint = L/Shift\n
+Slow/Stop L/Ctrl\n
+Ineract with Animal = G\n
+Brush Horse = B\n
+Feed Horse = R\n
+Left Horse Melee Attack = L/Mouse Button\n
+Right Horse Melee Attack = R/Mouse Button\n\n
+Wagons, Boats and Trains\n\n
+Move Forward = W\n
+Move Backward = S\n
+Turn Left = A\n
+Turn Right = D\n
+Increase Speed = L/Shift\n
+Brake = L/Ctrl\n
+Headlight = O (not zero)\n
+Train Whistle = G\n
+Change Vehicle Seat = Z\n
+
+
+"
             android:textColor="#fff"
             android:textSize="15dp" />
     </LinearLayout>
 
 </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        />
+
+</RelativeLayout>

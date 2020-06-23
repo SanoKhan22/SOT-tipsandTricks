@@ -10,16 +10,16 @@
         android:title="HOME"/>
 
         <item android:id="@+id/nav_home2"
-            android:icon="@drawable/dot"
+            android:icon="@drawable/dot1"
             android:title="Tips"/>
 
         <item android:id="@+id/nav_home3"
-            android:icon="@drawable/dot"
+            android:icon="@drawable/dot1"
             android:title="Tricks"/>
 
 
         <item android:id="@+id/nav_home4"
-            android:icon="@drawable/dot"
+            android:icon="@drawable/dot1"
             android:title="GamePlay"/>
 
 
@@ -30,11 +30,11 @@
 
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_grpitem_pp"
-            android:icon="@drawable/pp"
+            android:icon="@drawable/privacy"
             android:title="Privacy Policy"/>
 
         <item android:id="@+id/nav_grpitem2_about"
-            android:icon="@drawable/about"
+            android:icon="@drawable/aboutme"
             android:title="About"/>
 
 

@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">SOT Guide</string>
+    <string name="app_name"> Guide For RDR</string>
     <string name="Toolbar">hi/hello</string>
+
+<!--    ca-app-pub-6165143774808397/9762714578 intestal-->
+    <string name="admob_intestial">ca-app-pub-3940256099942544/1033173712</string>
+
+<!--    ca-app-pub-6165143774808397~1093887068 banner-->
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
 </resources>

@@ -6,9 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".sot_gp">
 
+    //fb ads banner
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
         android:layout_height="match_parent"
         android:id="@+id/view_pager"/>
 

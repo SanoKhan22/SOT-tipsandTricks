@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/aldrich</item>
         <item>@font/atomic_age</item>
+        <item>@font/autour_one</item>
+        <item>@font/bangers</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/bowlby_one_sc</item>
         <item>@font/caesar_dressing</item>
         <item>@font/capriola</item>
         <item>@font/chelsea_market</item>
+        <item>@font/cinzel_decorative</item>
+        <item>@font/convergence</item>
+        <item>@font/eagle_lake</item>
         <item>@font/eater</item>
         <item>@font/frijole</item>
         <item>@font/montserrat_alternates</item>

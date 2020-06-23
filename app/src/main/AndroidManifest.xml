@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sanok.snakerguid">
+    package="com.sanok.rdred">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -9,17 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/splashTheme">
-        <activity android:name=".controls"></activity>
+        <activity android:name="com.sanok.rdred.controls"></activity>
         <activity
-            android:name=".Tricks"
+            android:name="com.sanok.rdred.Tricks"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Introduction"
+            android:name="com.sanok.rdred.Introduction"
             android:theme="@style/AppTheme" />
-        <activity android:name=".sot_gp" />
-        <activity android:name=".sot_tips" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.sanok.rdred.sot_gp" />
+        <activity android:name="com.sanok.rdred.sot_tips" />
+        <activity android:name="com.sanok.rdred.MainActivity" />
+        <activity android:name="com.sanok.rdred.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +31,11 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
     </application>
 
 </manifest>
